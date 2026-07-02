@@ -1,0 +1,36 @@
+{
+  "name": "dg-data-portal",
+  "version": "1.0.0",
+  "description": "基于vue3、vite、element-plus、typesScript的数据门户项目",
+  "author": "huge138",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src --cache",
+    "lint:fix": "eslint ./src --fix --cache"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@vueuse/core": "^14.3.0",
+    "axios": "^1.16.0",
+    "element-plus": "^2.13.7",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vitejs/plugin-vue-jsx": "^5.1.5",
+    "sass": "^1.99.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.10",
+    "vue-tsc": "^3.2.8"
+  },
+  "engines": {
+    "node": ">= 20.19.0",
+    "pnpm": ">=8.6.0"
+  }
+}
